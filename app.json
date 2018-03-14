@@ -6,7 +6,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "虎象棋",
+    "navigationBarTitleText": "斗兽棋",
     "navigationBarTextStyle":"black"
   }
 }
