@@ -1,0 +1,154 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.message-container {
+    height: 50rpx;
+    font-size: 26rpx;
+}
+
+.flex-h {
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+}
+
+.flex-v {
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+}
+
+.player-pane {
+    width: 340rpx;
+    background-color: springgreen;
+    margin: 5rpx;
+    font-size: 25rpx;
+}
+
+.player {
+    width: 340rpx;
+    height: 3rpx;
+    background-color: white;
+}
+.player-red {
+    width: 340rpx;
+    height: 6rpx;
+    background-color: red;
+}
+.player-green {
+    width: 340rpx;
+    height: 6rpx;
+    background-color: green;
+}
+
+.chess {
+    width: 170rpx;
+    height: 220rpx;
+    background-color: white;
+    border: 1rpx solid #EFEFEF;
+}
+
+.chess-close {
+    width: 140rpx;
+    height: 185rpx;
+    margin: 5rpx auto;
+    line-height: 185rpx;
+    text-align: center;
+    position: relative;
+
+    border:1px solid #BFBFBF;
+    background-color: darkgray;
+    padding: 10rpx;
+    /* Add box-shadow */
+    box-shadow:2rpx 2rpx 3rpx #888888;
+}
+
+.chess-open {
+    width: 140rpx;
+    height: 185rpx;
+    margin: 5rpx auto;
+    line-height: 185rpx;
+    text-align: center;
+    position: relative;
+
+    border:1px solid #BFBFBF;
+    background-color:white;
+    padding: 10rpx;
+    /* Add box-shadow */
+    box-shadow:2rpx 2rpx 3rpx #aaaaaa;
+}
+
+.chess-choose {
+    width: 140rpx;
+    height: 185rpx;
+    text-align: center;
+    margin: 5rpx auto;
+    line-height: 185rpx;
+    position: relative;
+
+    border:1px dashed springgreen;
+    background-color:white;
+    padding: 10rpx;
+    /* Add box-shadow */
+    box-shadow: 2rpx 2rpx 3rpx #aaaaaa;
+}
+
+.chess-dead {
+    width: 140rpx;
+    height: 190rpx;
+    line-height: 190rpx;
+    text-align: center;
+    margin: 5rpx auto;
+    background-color: white;
+}
+
+.banner {
+    position: absolute;
+    left: 2rpx;
+    line-height: 0rpx;
+    margin-top: 10rpx;
+}
+
+.text-red {
+    color: red;
+}
+.text-green {
+    color: green;
+}
+
+.text-choose {
+    font-size: 60rpx;
+}
+
+.performance-red {
+    display: inline-block;
+    width: 100rpx;
+    height: 30rpx;
+    background-color: red;
+}
+.performance-green {
+    display: inline-block;
+    width: 100rpx;
+    height: 30rpx;
+    background-color: green;
+}
+
